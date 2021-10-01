@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-:root{
-  --bg-color:#FEE2E2
-
-
-
-}
-
 *{
     box-sizing: border-box;
 }
 
-
 body{
-    background-color: var(--bg-color) ;
-   
+    background-color: #69779B;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -29,7 +20,9 @@ body{
 
 .key{
     border: 1px solid #999;
-    background-color: #eee;
+    border-radius: 33px;
+    background-color: #ACDBDF;
+    color: #333333;
     box-shadow: 1px 1px 3px rgba(0,0, 0, 0.1);
     display: inline-flex;
     align-items: center;
@@ -51,4 +44,3 @@ body{
     color: #555;
     font-size: 15px;
 }
-
